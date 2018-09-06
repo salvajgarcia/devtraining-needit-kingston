@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>sys-ui</category>
+        <content><![CDATA[    <h1 class="title topictitle1">Create, modify, or delete a welcome page section</h1>        <div class="body taskbody">       <ul class="ul steps-unordered"><li class="li step">                <span class="ph cmd">To create or modify a welcome page section:</span>                <ol class="ol substeps" id="sys_home-setup__substeps_u5b_mfz_bv"><li class="li substep substepexpand">                        <span class="ph cmd">Enter or modify the <span class="ph uicontrol">Short description</span>.</span>                    </li><li class="li substep substepexpand">                        <span class="ph cmd">In the <span class="ph uicontrol">Condition</span> field, enter the                                following:gs.getUser().getCompanyRecord().name.toString()                                &#61;&#61; &#34;Company&#34;</span>                        <div class="itemgroup info"><em class="ph i">Company</em> is the name of your company.</div>                    </li><li class="li substep substepexpand">                        <span class="ph cmd">Complete or modify the other fields in the form as needed.</span>                    </li><li class="li substep substepexpand">                        <span class="ph cmd">Click <span class="ph uicontrol">Submit</span> or                            <span class="ph uicontrol">Update</span>.</span>                    </li></ol>            </li><li class="li step">                <span class="ph cmd">To delete a section, click <span class="ph uicontrol">Delete</span>.</span>            </li></ul>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Create-Welcome-Page-Section&amp;version&#61;kingston" target="_blank">Create welcome page section</a></div></div></div></div>]]></content>
+        <last_sync>2018-08-29 13:47:07</last_sync>
+        <modifier>setup</modifier>
+        <name>sys_home-setup</name>
+        <page>sys_home</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-08-29 13:47:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f614cb1cdb1023007406dde74896190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_home-setup</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_f614cb1cdb1023007406dde74896190f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-29 13:47:07</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=f614cb1cdb1023007406dde74896190f"/>
+</record_update>
